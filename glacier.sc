@@ -62,7 +62,7 @@
                 #f)
               (begin 
                 (display "The vault is successfully deleted.\n")
-                #f)))
+                #t)))
         (begin 
           (display "The vault is not exist. Deleting failed...\n")
           #f))))
